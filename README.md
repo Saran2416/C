@@ -7,4 +7,5 @@ FILE DEFINITIONS:
    1. practice.c --> this file is for practing the basic i learn every day
    2. add.c --> A simple program to add two numbers by getting user inputs
    3. calculator.c --> A simple calculator program
+   4. voting.c --> A simple progam to check age eligibility for voting
    
