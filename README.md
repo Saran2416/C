@@ -9,3 +9,4 @@ FILE DEFINITIONS:
    3. calculator.c --> A simple calculator program
    4. voting.c --> A simple progam to check age eligibility for voting
    5. temperature_converter.c --> A simple program to convert temperature to its units
+   6. number_guessing.c --> A simple number guessing program 
