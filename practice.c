@@ -9,9 +9,9 @@ int main() {
     printf("Enter second number: ");
     scanf("%d", &b);
 
-    result = a - b;
+    result = a * b;
 
-    printf("Result: %d - %d = %d\n", a, b, result);
+    printf("Result: %d * %d = %d\n", a, b, result);
 
     return 0;
 }
