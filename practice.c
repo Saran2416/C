@@ -1,17 +1,28 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, result;
+    double a, b, result;
 
     printf("Enter first number: ");
-    scanf("%d", &a);
+    if (scanf("%lf", &a) != 1) {
+        printf("Invalid input.\n");
+        return 1;
+    }
 
     printf("Enter second number: ");
-    scanf("%d", &b);
+    if (scanf("%lf", &b) != 1) {
+        printf("Invalid input.\n");
+        return 1;
+    }
 
-    result = a * b;
+    if (b == 0.0) {
+        printf("Error: Division by zero is not allowed.\n");
+        return 1;
+    }
 
-    printf("Result: %d * %d = %d\n", a, b, result);
+    result = a / b;
+
+    printf("Result: %.2f / %.2f = %.2f\n", a, b, result);
 
     return 0;
 }
