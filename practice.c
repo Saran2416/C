@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    double a, b, result;
+    double a, b, sum;
 
     printf("Enter first number: ");
     if (scanf("%lf", &a) != 1) {
@@ -15,14 +15,9 @@ int main() {
         return 1;
     }
 
-    if (b == 0.0) {
-        printf("Error: Division by zero is not allowed.\n");
-        return 1;
-    }
+    sum = a + b;
 
-    result = a / b;
-
-    printf("Result: %.2f / %.2f = %.2f\n", a, b, result);
+    printf("Result: %.2f + %.2f = %.2f\n", a, b, sum);
 
     return 0;
 }
